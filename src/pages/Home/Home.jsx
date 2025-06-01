@@ -1,10 +1,16 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import Banner from "../Banner/Banner";
 import "./Home.css";
-import About from "../About/About";
-
+import Sideimage from "../sideimage/sideimage";
+import Client from "../Client/Client";
 const Home = () => {
-  return <About />;
+  return (
+    <>
+      <Banner />
+      <Sideimage />
+      <Client />
+    </>
+  );
 };
 
 export default Home;

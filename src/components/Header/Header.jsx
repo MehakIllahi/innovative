@@ -8,8 +8,8 @@ const Header = () => {
       <div className="top-bar">
         <div className="container">
           <div className="contact-info">
-            <span>📞 (804) 467-8266</span>
-            <span>✉️ catering@finerpalate.com</span>
+            <span>📞 (+91) 7006978586 </span>
+            <span>✉️ hr@innovativetechnologiesinfo.in</span>
           </div>
         </div>
       </div>

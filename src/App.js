@@ -8,6 +8,8 @@ import Clients from "./pages/Clients";
 import Contact from "./pages/Contact/Contact";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Header/Navbar";
+import Footer from "./components/Footer/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => (
   <Router>
@@ -20,7 +22,7 @@ const App = () => (
       <Route path="/clients" element={<Clients />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
-    {/* Add Footer here */}
+    <Footer />
   </Router>
 );
 
