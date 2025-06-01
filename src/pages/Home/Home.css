@@ -1,0 +1,6 @@
+.home-hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+}
