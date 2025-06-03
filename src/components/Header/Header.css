@@ -124,3 +124,34 @@ header {
 .nav-links a.active {
   color: #4267b2;
 }
+/* Header.css */
+
+.top-bar {
+  background-color: #6e8dae;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+}

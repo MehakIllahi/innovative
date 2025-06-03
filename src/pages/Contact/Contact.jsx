@@ -1,14 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Form,
-  Button,
-  Modal,
-} from "react-bootstrap";
+import { Row, Col, Card, Form, Button, Modal } from "react-bootstrap";
 import "./Contact.css";
 
 const Contact = () => {
@@ -49,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <Container className="contact-page">
+    <div className="contact-page">
       <Row className="justify-content-center">
         <Col md={8} lg={6}>
           <Card className="contact-card shadow-sm">
@@ -113,7 +105,7 @@ const Contact = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </Container>
+    </div>
   );
 };
 

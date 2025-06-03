@@ -8,8 +8,24 @@ const Header = () => {
       <div className="top-bar">
         <div className="container">
           <div className="contact-info">
-            <span>📞 (+91) 7006978586 </span>
-            <span>✉️ hr@innovativetechnologiesinfo.in</span>
+            <span>
+              📞{" "}
+              <a
+                href="tel:+919103266414"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                (+91) 9103266414
+              </a>
+            </span>
+            <span>
+              ✉️{" "}
+              <a
+                href="mailto:hr@innovativetechnologiesinfo.in"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                hr@innovativetechnologiesinfo.in
+              </a>
+            </span>
           </div>
         </div>
       </div>
