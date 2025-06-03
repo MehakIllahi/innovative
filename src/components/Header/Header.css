@@ -42,6 +42,9 @@ header {
   align-items: center;
   gap: 10px;
 }
+.logo h6 {
+  color: #6e8dae;
+}
 
 .logo img {
   width: 40px;

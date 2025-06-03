@@ -1,0 +1,55 @@
+/* src/pages/Contact.css */
+
+.contact-page {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+form label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+form input,
+form textarea {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"] {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+/* Optional enhancements */
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header .text-success {
+  color: #28a745;
+}
+.modal-header .text-danger {
+  color: #dc3545;
+}

@@ -1,9 +1,12 @@
 import React from "react";
-
-import "./About.css"; // Optional: for custom styling
-
+import "./About.css";
+import Sideimage from "../sideimage/sideimage";
 const About = () => {
-  return <></>;
+  return (
+    <div className="about-container">
+      <Sideimage />
+    </div>
+  );
 };
 
 export default About;
