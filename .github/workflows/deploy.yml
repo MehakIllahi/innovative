@@ -1,0 +1,39 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]   # Run on every push to main
+
+permissions:
+  contents: write        # Needed to push to gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        # If you don't have a package-lock.json, use: npm install
+
+      - name: Build
+        run: npm run build
+
+      # SPA fallback: make 404.html to fix React Router refresh 404s on GitHub Pages
+      - name: Add SPA 404 fallback
+        run: cp build/index.html build/404.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
