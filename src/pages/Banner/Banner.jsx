@@ -7,9 +7,9 @@ function Banner() {
       className="text-white 
     "
     >
-      <div className="col-md-12 text-center  mt-md-0">
+      <div className="col-md-12 text-center mt-20 md-0">
         <img
-          src="/innovativebanner.png"
+          src="/bannersana.jpeg"
           alt="Banner"
           className="img-fluid rounded"
         />
