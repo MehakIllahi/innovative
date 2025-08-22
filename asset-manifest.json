@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MehakIllahi/innovative/static/css/main.900c229b.css",
-    "main.js": "/MehakIllahi/innovative/static/js/main.ba703a0c.js",
-    "static/js/453.e6a2c370.chunk.js": "/MehakIllahi/innovative/static/js/453.e6a2c370.chunk.js",
-    "index.html": "/MehakIllahi/innovative/index.html",
-    "main.900c229b.css.map": "/MehakIllahi/innovative/static/css/main.900c229b.css.map",
-    "main.ba703a0c.js.map": "/MehakIllahi/innovative/static/js/main.ba703a0c.js.map",
-    "453.e6a2c370.chunk.js.map": "/MehakIllahi/innovative/static/js/453.e6a2c370.chunk.js.map"
+    "main.css": "/static/css/main.900c229b.css",
+    "main.js": "/static/js/main.a896d3c4.js",
+    "static/js/453.e6a2c370.chunk.js": "/static/js/453.e6a2c370.chunk.js",
+    "index.html": "/index.html",
+    "main.900c229b.css.map": "/static/css/main.900c229b.css.map",
+    "main.a896d3c4.js.map": "/static/js/main.a896d3c4.js.map",
+    "453.e6a2c370.chunk.js.map": "/static/js/453.e6a2c370.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.900c229b.css",
-    "static/js/main.ba703a0c.js"
+    "static/js/main.a896d3c4.js"
   ]
 }
