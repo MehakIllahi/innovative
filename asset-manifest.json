@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MehakIllahi/innovative/static/css/main.900c229b.css",
-    "main.js": "/MehakIllahi/innovative/static/js/main.58b0243e.js",
+    "main.js": "/MehakIllahi/innovative/static/js/main.ba703a0c.js",
     "static/js/453.e6a2c370.chunk.js": "/MehakIllahi/innovative/static/js/453.e6a2c370.chunk.js",
     "index.html": "/MehakIllahi/innovative/index.html",
     "main.900c229b.css.map": "/MehakIllahi/innovative/static/css/main.900c229b.css.map",
-    "main.58b0243e.js.map": "/MehakIllahi/innovative/static/js/main.58b0243e.js.map",
+    "main.ba703a0c.js.map": "/MehakIllahi/innovative/static/js/main.ba703a0c.js.map",
     "453.e6a2c370.chunk.js.map": "/MehakIllahi/innovative/static/js/453.e6a2c370.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.900c229b.css",
-    "static/js/main.58b0243e.js"
+    "static/js/main.ba703a0c.js"
   ]
 }
